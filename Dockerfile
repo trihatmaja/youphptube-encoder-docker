@@ -13,7 +13,7 @@ WORKDIR /var/www/html
 
 RUN cd /var/www/html \
     && rm -f index.html \
-    && git clone https://github.com/DanielnetoDotCom/YouPHPTube.git . \
+    && git clone https://github.com/DanielnetoDotCom/YouPHPTube-Encoder . \
     && pip install --upgrade pip \
     && pip install youtube-dl
 
